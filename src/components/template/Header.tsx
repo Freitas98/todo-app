@@ -4,7 +4,7 @@ export default function Header(props) {
     return (
         <>
             <Head>
-                <title>Baptista's TODO</title>
+                <title>Baptista&apos;s TODO</title>
             </Head>
             <div className="flex h-1/3 bg-tasks bg-no-repeat bg-cover">
                 <div className={`
