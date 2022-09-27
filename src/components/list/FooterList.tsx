@@ -67,7 +67,7 @@ export default function FooterList(props: FooterListProps) {
     }
 
     return (
-        <li className="flex p-5">
+        <li className="flex p-5 text-xs sm:text-base">
             {renderItemQuantity()}
             {renderFilterButtons()}
             {renderRemoveDoneTasks()}

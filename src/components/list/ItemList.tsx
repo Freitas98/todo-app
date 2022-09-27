@@ -11,7 +11,7 @@ export default function ItemList(props: ItemListProps) {
 
     return (
         <li onClick={props.changeStatus} className={`
-            flex items-center p-5 text-xl break-all
+            flex items-center p-5 text-sm sm:text-xl break-all
             text-black
             border-b border-gray-400 cursor-pointer
         `}>
